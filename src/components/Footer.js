@@ -1,10 +1,11 @@
-
-import React from "react"
+import React from 'react';
 
 function Footer() {
-    return (
-        <footer className="footer"><p>Contact mrmoopie@moo.com</p></footer>
-    )
+	return (
+		<footer className="footer">
+			<p>Contact mrmoopie@moo.com</p>
+		</footer>
+	);
 }
 
-export default Footer
+export default Footer;

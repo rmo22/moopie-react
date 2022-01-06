@@ -1,63 +1,63 @@
 /* logoStyle css starts here */
 .logoStyle {
-    width:103px;
-    margin-top: -4%;
-    margin-left: 88%;
+	width: 103px;
+	margin-top: -4%;
+	margin-left: 88%;
 }
 /* logoStyle css ends here */
 
 /* this css used to remove dots in li of ul, starts here */
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 /* ends here */
 
 /* helpStyle css starts here */
 .helpStyle {
-    color: #00b2d6;
-    cursor: pointer;
-    font-size: .75rem;
-    font-family: 'Roboto', sans-serif;
+	color: #00b2d6;
+	cursor: pointer;
+	font-size: 0.75rem;
+	font-family: 'Roboto', sans-serif;
 }
 /* helpStyle css ends here */
 
 .lione {
-    display: inline-block;
+	display: inline-block;
 }
 
 .litwo {
-    display: inline-block;
+	display: inline-block;
 }
 
 .lithree {
-    display: inline-block;
+	display: inline-block;
 }
 
 .border {
-    background-color: transparent;
-    border-radius: 1%;
+	background-color: transparent;
+	border-radius: 1%;
 }
 
 .english {
-    color: #524c61;
-    font-size: .75rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: .75rem;
+	color: #524c61;
+	font-size: 0.75rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75rem;
 }
 
 .flagStyle {
-    height:.75rem;
-    margin-left: .5em;
-    margin-right: .25em;
-    margin-top:-2.5%;
+	height: 0.75rem;
+	margin-left: 0.5em;
+	margin-right: 0.25em;
+	margin-top: -2.5%;
 }
 
 .rupeeStyle {
-    margin-left: .5em;
-    color: #b2aebd;
-    font-size: .75rem;
+	margin-left: 0.5em;
+	color: #b2aebd;
+	font-size: 0.75rem;
 }
 
 .buttonStyle {
-    background-color: transparent;
+	background-color: transparent;
 }
