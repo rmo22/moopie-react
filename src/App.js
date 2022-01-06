@@ -6,7 +6,7 @@ import Joke from "./components/Joke"
 import Form from "./components/Form"
 import About from "./pages/About"
 import Work from "./components/Work"
-import Mrsmoolink from "./components/Mrsmoolink"
+// import Mrsmoolink from "./components/Mrsmoolink"
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
     <Work />
     <br/>
     <Footer />
-    <Mrsmoolink />
+    {/* <Mrsmoolink /> */}
    
     </div>
   )
