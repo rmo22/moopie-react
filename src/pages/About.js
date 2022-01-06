@@ -1,4 +1,5 @@
 import React from 'react';
+import Work from '../components/Work';
 const About = () => (
 	<div>
 		<h1>About Mr Moopie</h1>
@@ -6,6 +7,7 @@ const About = () => (
 			Mr Moopie finds himself travelling thousands of miles across the globe
 			each year to meet his fans, who are known as 'Moops'.
 		</h3>
+		<Work />
 	</div>
 );
 

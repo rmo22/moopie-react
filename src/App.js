@@ -1,28 +1,25 @@
 import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
-
-import Form from './components/Form';
-import About from './pages/About';
-import Work from './components/Work';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-// import Mrsmoolink from "./components/Mrsmoolink"
+import Home from './pages/Home';
+import About from './pages/About';
+import Form from './pages/Form';
+import Jokes from './pages/Jokes';
+import Footer from './components/Footer';
 
 function App() {
 	return (
-		<div className="font-link">
-			<Header />
-			<Navbar />
-			<Main />
-			<h1>Hehe</h1>
-
-			<Form />
-			<About />
-			<Work />
-			<br />
+		<div>
+			<Router>
+				<Navbar />
+				<Switch>
+					<Route path="/" exact component={Home} />
+					<Route path="/about" component={About} />
+					<Route path="/form" component={Form} />
+					<Route path="/jokes" component={Jokes} />
+				</Switch>
+			</Router>
 			<Footer />
-			{/* <Mrsmoolink /> */}
 		</div>
 	);
 }

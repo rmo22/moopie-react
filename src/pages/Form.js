@@ -1,8 +1,17 @@
 import React from 'react';
 
 const Form = () => (
-	<div>
-		<h1>Form</h1>
+	<div className="wrapper">
+		<h1>How often do you eat pies?</h1>
+		<form>
+			<fieldset>
+				<label>
+					<p>Answer</p>
+					<input name="name" />
+				</label>
+			</fieldset>
+			<button type="submit">Submit</button>
+		</form>
 	</div>
 );
 
