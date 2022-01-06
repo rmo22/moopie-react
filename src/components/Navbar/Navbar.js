@@ -1,33 +1,26 @@
-import React, { Component } from 'react';
-import './Navbar.css';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
-	render() {
-		return (
-			<div className="container-fluid">
-				<div className="row">
-					<div className="col-6">
-						<nav className="logoclass navbar navbar-expand-lg navbar-light">
-							<a className="hyperlinkStyle" href="www.facebook.com">
-								<img className="logoStyle" src="work.jpg" alt="logo"></img>
-							</a>
-							<button
-								className="navbar-toggler"
-								type="button"
-								data-toggle="collapse"
-								data-target="#navbarNav"
-								aria-controls="navbarNav"
-								aria-expanded="false"
-								aria-label="Toggle navigation"
-							>
-								<span className="navbar-toggler-icon"></span>
-							</button>
-						</nav>
-					</div>
-				</div>
+const Navbar = () => {
+	return (
+		<BrowserRouter>
+			<div>
+				<li>
+					<Link to="/Home">Home</Link>
+				</li>
+				<li>
+					<Link to="/About">About</Link>
+				</li>
+				<li>
+					<Link to="/Form">Form</Link>
+				</li>
+				<li>
+					<Link to="/Jokes">Jokes</Link>
+				</li>
 			</div>
-		);
-	}
-}
+		</BrowserRouter>
+	);
+};
 
 export default Navbar;

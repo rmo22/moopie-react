@@ -1,7 +1,4 @@
-// pages/About.js
-
 import React from 'react';
-
 const About = () => (
 	<div>
 		<h1>About Mr Moopie</h1>
